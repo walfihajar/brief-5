@@ -1,0 +1,17 @@
+/*pour animation publi*/
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1000px; 
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
